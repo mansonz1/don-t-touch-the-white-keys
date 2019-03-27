@@ -1,0 +1,104 @@
+body,html{
+    height:100%;
+   /* display:flex;
+    align-items:center;
+    justify-content: center;*/
+}
+#main{
+    width:400px;
+    height:606px;
+  /*  border:1px solid black;*/
+    /*display:flex;*/
+    /*align-items:center;*/
+   /* justify-content: center;*/
+   /* flex-flow:row wrap;*/
+    overflow:hidden;
+    position:relative;
+
+}
+
+#main .rectangle{
+    width:99px;
+    height:149px;
+    border:1px solid black;
+    float:left
+}
+.bgc{
+    background-color: darkgray;
+}
+#row{
+    width:408px;
+    height:150px;
+   /* border:1px solid red;*/
+    /*display:flex;*/
+    /*align-items:center;*/
+   /*  justify-content: center;*/
+   /* flex-flow:row wrap;*/
+   /* overflow:hidden;*/
+}
+img{
+    /*border:1px solid black;*/
+    width:400px;
+    height:198px;
+    position:relative;
+    left:500px;
+    top:0px;
+    font-size:40px;
+    text-align:center;
+    line-height:106px;
+    cursor:pointer;
+    background: url("../timg.jpg");
+}
+#count{
+   /* border:1px solid black;*/
+    width:400px;
+    height:106px;
+    position:relative;
+    left:920px;
+    top:00px;
+    font-size:20px;
+    text-align:center;
+    line-height:106px;
+    cursor:pointer;
+}
+.span{
+   /* border:1px solid black;*/
+    width:400px;
+    height:106px;
+    position:relative;
+    display:inline-block;
+    left:50px;
+    top:-105px;
+    font-size:20px;
+    text-align:center;
+    line-height:106px;
+    cursor:pointer;
+}
+#border{
+    width:400px;
+    height:595px;
+    border:1px solid black;
+    /*display:flex;*/
+    /*align-items:center;*/
+    /* justify-content: center;*/
+    /* flex-flow:row wrap;*/
+    overflow:hidden;
+    position:absolute;
+    left:500px;
+    top:200px;
+
+}
+#over{
+     border:1px solid black;
+    width:400px;
+    height:340px;
+    position:relative;
+    left:500px;
+    top:350px;
+    font-size:50px;
+    text-align:center;
+    line-height:140px;
+    cursor:pointer;
+    background: url("../a8014c086e061d9571f1982e70f40ad162d9ca75.jpg");
+    display:none;
+}
